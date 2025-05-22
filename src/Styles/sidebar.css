@@ -1,0 +1,54 @@
+/* SideBar.css */
+
+.SideBar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #0a0707;
+    box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0 12px 12px 0;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .bar-head h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7c3aed;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .bar-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    color: #4b5563;
+    background-color: #f9fafb;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: #ede9fe;
+    color: #6b21a8;
+    transform: translateX(4px);
+  }
+  
+  .item .icon {
+    font-size: 1.2rem;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  

@@ -1,0 +1,65 @@
+/* Header Styling */
+.header {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-bottom: 2px solid #eee;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+  }
+  
+  /* Container for cards */
+  .d-flex.flex-wrap.p-3 {
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  /* Card Styling */
+  .module-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    width: 220px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Icon Styling */
+  .module-card i {
+    font-size: 32px;
+    color: #4a90e2;
+    margin-bottom: 12px;
+  }
+  
+  /* Title Styling */
+  .module-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #34495e;
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .module-card {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .d-flex.flex-wrap.p-3 {
+      justify-content: center;
+    }
+  }
+  

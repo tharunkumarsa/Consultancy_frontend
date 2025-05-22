@@ -1,0 +1,163 @@
+/* Make the layout full screen and side by side */
+.full-page-layout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+  }
+  
+  .right-section {
+    border-right: none;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-table, .added-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td,
+  .added-table th, .added-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .add-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    padding: 10px;
+  }
+  
+  .total-section {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+  }
+  /* Popup modal background */
+.popup-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  /* Popup content box */
+  .popup-content {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .popup-content input,
+  .popup-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  .popup-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .confirm-btn,
+  .cancel-btn {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  .stock-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff4d4f;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-weight: 600;
+  }
+  .input-error {
+    border: 2px solid rgb(229, 162, 162) !important;
+  }
+  
+  

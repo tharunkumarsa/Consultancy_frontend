@@ -1,0 +1,76 @@
+.billing-history-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.history-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-left: 6px solid #007bff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-info {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.date-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.history-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.history-table th {
+  background-color: #e9ecef;
+}
+
+.history-total {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.loading-message,
+.error-message {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #666;
+}

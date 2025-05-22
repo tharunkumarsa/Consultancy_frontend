@@ -1,0 +1,105 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .page-center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      width: 90%;
+      padding: 30px 20px;
+    }
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    width: 360px;
+    max-width: 90%;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .form-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+  
+  form input:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.3);
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+  
+  form p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  form a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  form a:hover {
+    color: #2575fc;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,64 @@
+.dashboard-container {
+    background: #f4f6f8;
+    min-height: 100vh;
+  }
+  .btn-logout {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .btn-logout:hover {
+    background-color: #c82333;
+  }
+  
+  /* Common card style */
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  
+  /* Left - Total Products */
+  .card-left {
+    border-left: 5px solid #0d6efd;
+    min-width: 300px;
+  }
+  
+  /* Right - Out of Stock */
+  .card-right {
+    border-left: 5px solid #dc3545;
+    min-width: 300px;
+  }
+  
+  /* Low stock section */
+  .card-warning {
+    border-left: 5px solid #ffc107;
+    max-height: 250px; /* Set fixed height */
+    overflow-y: auto;  /* Enable vertical scroll */
+  }
+  
+  /* Ensure scrollable list inside Out of Stock */
+  .card-right ul {
+    max-height: 120px;
+    overflow-y: auto;
+    padding-left: 18px;
+  }
+  
+  /* Optional scroll bar styling */
+  .card-warning::-webkit-scrollbar,
+  .card-right ul::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .card-warning::-webkit-scrollbar-thumb,
+  .card-right ul::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+  }
+  

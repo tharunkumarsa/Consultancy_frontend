@@ -1,0 +1,65 @@
+.user-details-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #007bff;
+  }
+  
+  .user-info {
+    text-align: center;
+  }
+  
+  .user-info p {
+    margin: 0.3rem 0;
+  }
+  
+  .user-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 1rem;
+  }
+  
+  .user-form input,
+  .user-form select,
+  .user-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .user-form button,
+  .edit-btn {
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .user-form button:hover,
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
