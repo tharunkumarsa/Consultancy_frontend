@@ -13,7 +13,7 @@ const Configuration = () => {
       route: "/add-module"
     },
     {
-      title: "Billing",
+      title: "Billing History",
       icon: <FaFileInvoiceDollar size={32} />, // Use the React Icon for Billing
       route: "/history"
     },
