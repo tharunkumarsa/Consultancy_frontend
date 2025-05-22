@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/SideBar.css";
+import "../Styles/sidebar.css";
 import { FiHome, FiSettings, FiFileText, FiBarChart2 } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
